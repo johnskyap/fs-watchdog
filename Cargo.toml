@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 reqwest = { version = "0.10", features = ["blocking"] }
 anyhow = "1.0.31"
-senfi = { git = "https://gitlab.senfcall.de/senfcall-public/senfi.git", tag="v0.1.7" }
+senfi = { git = "https://gitlab.senfcall.de/senfcall-public/senfi.git", tag="v0.1.9" }
 tokio = {features = ["full"], version = "0.2.18"}
 
 [package.metadata.deb]
